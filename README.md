@@ -10,7 +10,7 @@ Também é possível inserir no campo a raça de cãozinho que você quer ver fo
 
 <img src="Dog Glossary/task/src/Assets/filtro.png">
 
-#Sobre
+# Sobre
 Este projeto faz parte da trilha Frontend Core da plataforma hyperskill (Jetbrains Academy). Para mais informações do projeto e conteúdo [Hyperskill](https://hyperskill.org/projects/323?track=5)
 
 Meu [perfil](https://hyperskill.org/profile/282904598) na plataforma.
