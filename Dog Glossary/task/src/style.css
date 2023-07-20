@@ -1,0 +1,63 @@
+
+h1 {
+    text-align: center;
+    font-family: "pangolin", "sans-serif";
+    color: slategray;
+    margin-top: 5vh;
+}
+
+#content {
+    max-width: 1000px;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: center;
+}
+
+#show-breed {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: block;
+    margin: 1vh auto;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+}
+
+button:hover {
+    color: cornflowerblue;
+    background-color: white;
+}
+
+.flex-item {
+    margin-left: 10px;
+}
+
+#input-breed {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+}
+
+img {
+    border: 10px solid black;
+}
+
+#button-top {
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
