@@ -12,13 +12,21 @@ let list = document.createElement("ol");
 btnShowRandom.addEventListener("click", () => getDogInfo("https://dog.ceo/api/breeds/image/random", 0));
 btnShowBreed.addEventListener("click", (event) => {
     let breed = dogBreed.value.toLowerCase();
-    getDogInfo(`https://dog.ceo/api/breed/${breed}/images/random`, 1);
-    event.preventDefault();
+    if (breed === "") {
+        alert("Preencha o campo antes!");
+    } else {
+        getDogInfo(`https://dog.ceo/api/breed/${breed}/images/random`, 1);
+        event.preventDefault();
+    }
 });
 btnSubBreed.addEventListener("click", (event) => {
     let breed = dogBreed.value.toLowerCase();
-    getDogInfo(`https://dog.ceo/api/breed/${breed}/list`, 2);
-    event.preventDefault();
+    if (breed === "") {
+        alert("Preencha o campo antes!");
+    } else {
+        getDogInfo(`https://dog.ceo/api/breed/${breed}/list`, 2);
+        event.preventDefault();
+    }
 });
 btnAllBreed.addEventListener("click", () => getDogInfo("https://dog.ceo/api/breeds/list/all", 3));
 
